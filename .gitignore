@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.DS_Store
+.venv/
+venv/
+env/
+*.log
+raw_docs_*/
+clauses/
+metadata/
+embeddings.jsonl
+INTELLIGENT_CONTRACT.txt
+.ipynb_checkpoints/

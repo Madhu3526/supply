@@ -1,0 +1,15 @@
+{"text": "A handling charge of \u20b9100 is added for oversized cargo.", "entities": [{"start": 21, "end": 26, "label": "AMOUNT"}, {"start": 41, "end": 50, "label": "CONDITION"}]}
+{"text": "Unexpected traffic congestion in Delhi resulted in a 6-hour delay.", "entities": [{"start": 11, "end": 29, "label": "DELAY_REASON"}, {"start": 33, "end": 38, "label": "LOCATION"}, {"start": 57, "end": 64, "label": "DURATION"}]}
+{"text": "Shipment from Delhi to Pune must be delivered within 24-48 hours.", "entities": [{"start": 13, "end": 18, "label": "LOCATION"}, {"start": 22, "end": 26, "label": "LOCATION"}, {"start": 58, "end": 69, "label": "DURATION"}]}
+{"text": "If snowfall continues, deliveries to Shimla may be suspended.", "entities": [{"start": 3, "end": 11, "label": "WEATHER"}, {"start": 35, "end": 41, "label": "LOCATION"}]}
+{"text": "Cross-border shipments fall under Global jurisdiction.", "entities": [{"start": 34, "end": 40, "label": "JURISDICTION"}]}
+{"text": "The shipping service is governed by laws under Indian jurisdiction.", "entities": [{"start": 52, "end": 58, "label": "JURISDICTION"}]}
+{"text": "A penalty of 1.5% applies if the carrier misses the delivery window.", "entities": [{"start": 12, "end": 16, "label": "PENALTY"}, {"start": 24, "end": 30, "label": "PARTY"}]}
+{"text": "Temperature spikes beyond 40\u00b0C caused refrigeration failure.", "entities": [{"start": 0, "end": 18, "label": "WEATHER"}, {"start": 45, "end": 65, "label": "DELAY_REASON"}]}
+{"text": "Carrier is liable up to \u20b950,000 for cargo damage during transport.", "entities": [{"start": 22, "end": 29, "label": "AMOUNT"}, {"start": 34, "end": 46, "label": "LIABILITY"}]}
+{"text": "Interstate checkpoints caused long queues, delaying multiple trucks.", "entities": [{"start": 0, "end": 21, "label": "DELAY_REASON"}]}
+{"text": "Heavy snow caused road closures, delaying shipments by 18 hours.", "entities": [{"start": 0, "end": 10, "label": "WEATHER"}, {"start": 22, "end": 35, "label": "DELAY_REASON"}, {"start": 54, "end": 62, "label": "DURATION"}]}
+{"text": "Temperature-sensitive pharmaceuticals must be transported in insulated containers.", "entities": [{"start": 0, "end": 22, "label": "CONDITION"}]}
+{"text": "Delivery timelines during cyclone warnings may be extended.", "entities": [{"start": 22, "end": 29, "label": "WEATHER"}, {"start": 30, "end": 38, "label": "WEATHER"}]}
+{"text": "Flash floods washed out several bridges, affecting rural deliveries.", "entities": [{"start": 0, "end": 13, "label": "WEATHER"}, {"start": 14, "end": 23, "label": "DELAY_REASON"}]}
+{"text": "A penalty of 2% per day applies if the shipment to Bangalore is delayed beyond 24 hours.", "entities": [{"start": 12, "end": 15, "label": "PENALTY"}, {"start": 58, "end": 67, "label": "LOCATION"}, {"start": 86, "end": 95, "label": "DURATION"}]}

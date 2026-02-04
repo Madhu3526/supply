@@ -1,0 +1,100 @@
+{"text": "Delivery was delayed by 3 days due to heavy rain in Chennai.", "entities": [{"start": 23, "end": 29, "label": "DURATION"}, {"start": 38, "end": 48, "label": "WEATHER"}, {"start": 52, "end": 59, "label": "LOCATION"}, {"start": 30, "end": 48, "label": "DELAY_REASON"}]}
+{"text": "A penalty of 2% per day applies if the shipment to Bangalore is delayed beyond 24 hours.", "entities": [{"start": 12, "end": 15, "label": "PENALTY"}, {"start": 58, "end": 67, "label": "LOCATION"}, {"start": 86, "end": 95, "label": "DURATION"}]}
+{"text": "Force majeure conditions such as cyclone or flood remove carrier liability.", "entities": [{"start": 0, "end": 13, "label": "EVENT"}, {"start": 31, "end": 38, "label": "WEATHER"}, {"start": 42, "end": 47, "label": "WEATHER"}, {"start": 56, "end": 74, "label": "LIABILITY"}]}
+{"text": "Carrier is liable up to ₹50,000 for cargo damage during transport.", "entities": [{"start": 22, "end": 29, "label": "AMOUNT"}, {"start": 34, "end": 46, "label": "LIABILITY"}]}
+{"text": "The SLA requires completion of delivery within 48 hours on the Chennai–Hyderabad route.", "entities": [{"start": 4, "end": 7, "label": "SLA"}, {"start": 52, "end": 60, "label": "DURATION"}, {"start": 69, "end": 76, "label": "LOCATION"}, {"start": 77, "end": 86, "label": "LOCATION"}]}
+{"text": "Due to monsoon disruptions, the standard 36-hour turnaround cannot be guaranteed.", "entities": [{"start": 7, "end": 14, "label": "WEATHER"}, {"start": 27, "end": 39, "label": "DELAY_REASON"}, {"start": 54, "end": 64, "label": "DURATION"}]}
+{"text": "A surcharge of ₹250 applies for temperature-controlled shipments.", "entities": [{"start": 15, "end": 20, "label": "AMOUNT"}, {"start": 31, "end": 54, "label": "CONDITION"}]}
+{"text": "The carrier must compensate the shipper ₹10,000 if fragile goods are damaged.", "entities": [{"start": 29, "end": 36, "label": "PARTY"}, {"start": 37, "end": 44, "label": "AMOUNT"}, {"start": 48, "end": 55, "label": "CONDITION"}]}
+{"text": "Any delay caused by a vehicle breakdown will not attract penalties.", "entities": [{"start": 29, "end": 45, "label": "DELAY_REASON"}, {"start": 67, "end": 76, "label": "PENALTY"}]}
+{"text": "Deliveries to Coimbatore may be affected during the Diwali peak period.", "entities": [{"start": 13, "end": 23, "label": "LOCATION"}, {"start": 55, "end": 61, "label": "CONDITION"}]}
+{"text": "A 20% fuel surcharge applies on express shipments during monsoon.", "entities": [{"start": 2, "end": 5, "label": "PENALTY"}, {"start": 6, "end": 20, "label": "CONDITION"}, {"start": 50, "end": 57, "label": "WEATHER"}]}
+{"text": "If the truck is stuck in flood-affected routes, no penalties will apply.", "entities": [{"start": 25, "end": 30, "label": "WEATHER"}, {"start": 31, "end": 41, "label": "DELAY_REASON"}, {"start": 47, "end": 56, "label": "PENALTY"}]}
+{"text": "Damage to goods exceeding ₹5,000 will be the responsibility of the carrier.", "entities": [{"start": 26, "end": 33, "label": "AMOUNT"}, {"start": 63, "end": 70, "label": "PARTY"}]}
+{"text": "The dispute shall be referred to arbitration under Indian jurisdiction.", "entities": [{"start": 54, "end": 59, "label": "JURISDICTION"}]}
+{"text": "Shipment from Delhi to Pune must be delivered within 24-48 hours.", "entities": [{"start": 13, "end": 18, "label": "LOCATION"}, {"start": 22, "end": 26, "label": "LOCATION"}, {"start": 58, "end": 69, "label": "DURATION"}]}
+{"text": "A breakdown near Hosur caused a 12-hour delay on the route.", "entities": [{"start": 2, "end": 12, "label": "DELAY_REASON"}, {"start": 18, "end": 23, "label": "LOCATION"}, {"start": 33, "end": 41, "label": "DURATION"}]}
+{"text": "The carrier accepts no liability for delays due to union strikes.", "entities": [{"start": 22, "end": 34, "label": "LIABILITY"}, {"start": 49, "end": 63, "label": "DELAY_REASON"}]}
+{"text": "Temperature-sensitive pharmaceuticals must be transported in insulated containers.", "entities": [{"start": 0, "end": 22, "label": "CONDITION"}]}
+{"text": "A 5% deduction applies if shipment is not delivered within 72 hours.", "entities": [{"start": 2, "end": 4, "label": "PENALTY"}, {"start": 64, "end": 72, "label": "DURATION"}]}
+{"text": "The cargo must be handed over to the consignee at Hyderabad airport.", "entities": [{"start": 33, "end": 41, "label": "PARTY"}, {"start": 45, "end": 54, "label": "LOCATION"}]}
+{"text": "Due to fog conditions, morning flights on Ahmedabad routes were rescheduled.", "entities": [{"start": 7, "end": 10, "label": "WEATHER"}, {"start": 48, "end": 58, "label": "LOCATION"}]}
+{"text": "In case of container damage, the carrier shall reimburse up to ₹15,000.", "entities": [{"start": 12, "end": 28, "label": "DAMAGE_TYPE"}, {"start": 62, "end": 69, "label": "AMOUNT"}]}
+{"text": "Express delivery to Mumbai is expected within 12 hours under normal conditions.", "entities": [{"start": 20, "end": 26, "label": "LOCATION"}, {"start": 44, "end": 52, "label": "DURATION"}]}
+{"text": "A handling charge of ₹100 is added for oversized cargo.", "entities": [{"start": 21, "end": 26, "label": "AMOUNT"}, {"start": 41, "end": 50, "label": "CONDITION"}]}
+{"text": "The shipping contract is governed under the laws of Tamil Nadu jurisdiction.", "entities": [{"start": 57, "end": 67, "label": "JURISDICTION"}]}
+{"text": "If rain continues for more than 6 hours, delivery timelines may shift.", "entities": [{"start": 3, "end": 7, "label": "WEATHER"}, {"start": 32, "end": 39, "label": "DURATION"}]}
+{"text": "Carrier liability ends if the goods are not insured beyond ₹75,000.", "entities": [{"start": 0, "end": 17, "label": "LIABILITY"}, {"start": 57, "end": 64, "label": "AMOUNT"}]}
+{"text": "Frozen-goods transport requires temperature-controlled trucks.", "entities": [{"start": 0, "end": 12, "label": "CONDITION"}, {"start": 33, "end": 54, "label": "CONDITION"}]}
+{"text": "A fine of ₹300 will apply for delayed reverse pickups.", "entities": [{"start": 8, "end": 12, "label": "AMOUNT"}, {"start": 29, "end": 40, "label": "DELAY_REASON"}]}
+{"text": "Shipment was delayed due to road blockage caused by an accident.", "entities": [{"start": 27, "end": 41, "label": "DELAY_REASON"}, {"start": 55, "end": 63, "label": "DELAY_REASON"}]}
+{"text": "The delay occurred because the vehicle got stuck in a landslide.", "entities": [{"start": 46, "end": 55, "label": "DELAY_REASON"}]}
+{"text": "An additional ₹500 charge applies for fragile electronics shipments.", "entities": [{"start": 13, "end": 18, "label": "AMOUNT"}, {"start": 37, "end": 44, "label": "CONDITION"}]}
+{"text": "Delivery timelines during cyclone warnings may be extended.", "entities": [{"start": 22, "end": 29, "label": "WEATHER"}, {"start": 30, "end": 38, "label": "WEATHER"}]}
+{"text": "The shipment from Kochi to Trichy was damaged due to improper handling.", "entities": [{"start": 17, "end": 22, "label": "LOCATION"}, {"start": 26, "end": 32, "label": "LOCATION"}, {"start": 42, "end": 49, "label": "DAMAGE_TYPE"}]}
+{"text": "Any dispute shall be resolved under Karnataka jurisdiction.", "entities": [{"start": 41, "end": 50, "label": "JURISDICTION"}]}
+{"text": "The SLA ensures pickup within 6 hours from booking.", "entities": [{"start": 4, "end": 7, "label": "SLA"}, {"start": 25, "end": 32, "label": "DURATION"}]}
+{"text": "A penalty of ₹1000 applies for non-compliance with safety standards.", "entities": [{"start": 12, "end": 17, "label": "AMOUNT"}, {"start": 38, "end": 51, "label": "DELAY_REASON"}]}
+{"text": "Monsoon-related disruptions can cause 48-hour delays in the route.", "entities": [{"start": 0, "end": 22, "label": "DELAY_REASON"}, {"start": 36, "end": 45, "label": "DURATION"}]}
+{"text": "Carrier shall reimburse the shipper ₹8,500 for spoiled perishable goods.", "entities": [{"start": 32, "end": 39, "label": "PARTY"}, {"start": 40, "end": 46, "label": "AMOUNT"}, {"start": 51, "end": 71, "label": "CONDITION"}]}
+{"text": "The goods were held due to missing documents at Mumbai airport.", "entities": [{"start": 28, "end": 45, "label": "DELAY_REASON"}, {"start": 49, "end": 55, "label": "LOCATION"}]}
+{"text": "Unexpected traffic congestion in Delhi resulted in a 6-hour delay.", "entities": [{"start": 11, "end": 29, "label": "DELAY_REASON"}, {"start": 33, "end": 38, "label": "LOCATION"}, {"start": 57, "end": 64, "label": "DURATION"}]}
+{"text": "A 15% deduction applies for shipments delayed past 48 hours.", "entities": [{"start": 2, "end": 5, "label": "PENALTY"}, {"start": 49, "end": 57, "label": "DURATION"}]}
+{"text": "Shipment must be delivered within 24 hours except during extreme weather.", "entities": [{"start": 32, "end": 41, "label": "DURATION"}, {"start": 58, "end": 72, "label": "WEATHER"}]}
+{"text": "The temperature-controlled van malfunction led to spoilage of dairy items.", "entities": [{"start": 4, "end": 27, "label": "CONDITION"}, {"start": 28, "end": 39, "label": "DELAY_REASON"}]}
+{"text": "The insurance covers damages only up to ₹20,000 per occurrence.", "entities": [{"start": 39, "end": 46, "label": "AMOUNT"}]}
+{"text": "Pickups from Bangalore and Mysore may be slower during festive rush.", "entities": [{"start": 12, "end": 21, "label": "LOCATION"}, {"start": 26, "end": 32, "label": "LOCATION"}, {"start": 55, "end": 67, "label": "CONDITION"}]}
+{"text": "Severe fog in Punjab caused widespread flight cancellations.", "entities": [{"start": 7, "end": 10, "label": "WEATHER"}, {"start": 14, "end": 20, "label": "LOCATION"}, {"start": 32, "end": 47, "label": "DELAY_REASON"}]}
+{"text": "The carrier must pay ₹5,500 if items are damaged in transit.", "entities": [{"start": 20, "end": 26, "label": "AMOUNT"}, {"start": 37, "end": 44, "label": "DAMAGE_TYPE"}]}
+{"text": "Heavy snow caused road closures, delaying shipments by 18 hours.", "entities": [{"start": 0, "end": 10, "label": "WEATHER"}, {"start": 22, "end": 35, "label": "DELAY_REASON"}, {"start": 54, "end": 62, "label": "DURATION"}]}
+{"text": "The penalty for missed pickup is ₹300 per incident.", "entities": [{"start": 4, "end": 11, "label": "PENALTY"}, {"start": 31, "end": 35, "label": "AMOUNT"}]}
+{"text": "Lightning strikes in the region triggered temporary delivery halts.", "entities": [{"start": 0, "end": 18, "label": "WEATHER"}, {"start": 50, "end": 61, "label": "DELAY_REASON"}]}
+{"text": "Cross-border shipments fall under Global jurisdiction.", "entities": [{"start": 34, "end": 40, "label": "JURISDICTION"}]}
+{"text": "If the carrier fails to comply with packaging standards, penalties apply.", "entities": [{"start": 18, "end": 40, "label": "DELAY_REASON"}, {"start": 52, "end": 60, "label": "PENALTY"}]}
+{"text": "Blocked highways due to protests caused significant delivery delays.", "entities": [{"start": 0, "end": 16, "label": "DELAY_REASON"}, {"start": 21, "end": 29, "label": "DELAY_REASON"}]}
+{"text": "The shipment will take 2-3 days depending on weather conditions.", "entities": [{"start": 21, "end": 30, "label": "DURATION"}, {"start": 47, "end": 66, "label": "WEATHER"}]}
+{"text": "All hazardous-goods shipments must follow compliance regulations.", "entities": [{"start": 4, "end": 19, "label": "CONDITION"}, {"start": 45, "end": 65, "label": "DELAY_REASON"}]}
+{"text": "Temperature below 5°C may affect chemical cargo stability.", "entities": [{"start": 0, "end": 18, "label": "CONDITION"}]}
+{"text": "The dispute must be settled under U.S. jurisdiction.", "entities": [{"start": 34, "end": 48, "label": "JURISDICTION"}]}
+{"text": "Shipments delayed due to lack of customs clearance will not incur penalties.", "entities": [{"start": 18, "end": 47, "label": "DELAY_REASON"}, {"start": 76, "end": 85, "label": "PENALTY"}]}
+{"text": "If rainfall exceeds safe limits, delivery vehicles may be detained.", "entities": [{"start": 3, "end": 11, "label": "WEATHER"}, {"start": 36, "end": 53, "label": "DELAY_REASON"}]}
+{"text": "The shipper must declare items exceeding ₹25,000 in value.", "entities": [{"start": 4, "end": 11, "label": "PARTY"}, {"start": 37, "end": 44, "label": "AMOUNT"}]}
+{"text": "Heatwaves can cause refrigerated cargo to lose stability during transit.", "entities": [{"start": 0, "end": 9, "label": "WEATHER"}, {"start": 21, "end": 40, "label": "CONDITION"}]}
+{"text": "Loose packaging resulted in a 10-hour delay.", "entities": [{"start": 0, "end": 16, "label": "DELAY_REASON"}, {"start": 32, "end": 40, "label": "DURATION"}]}
+{"text": "Vehicle breakdown near Surat halted cargo movement.", "entities": [{"start": 0, "end": 17, "label": "DELAY_REASON"}, {"start": 23, "end": 28, "label": "LOCATION"}]}
+{"text": "Load mismatch caused the trailer to overturn mid-route.", "entities": [{"start": 0, "end": 14, "label": "DELAY_REASON"}]}
+{"text": "A 25% surcharge applies during end-of-year peak demand.", "entities": [{"start": 2, "end": 5, "label": "PENALTY"}, {"start": 43, "end": 54, "label": "CONDITION"}]}
+{"text": "The consignee in Kolkata must be notified of late arrival.", "entities": [{"start": 4, "end": 12, "label": "PARTY"}, {"start": 16, "end": 23, "label": "LOCATION"}]}
+{"text": "Extreme thunderstorms forced air cargo operators to reschedule flights.", "entities": [{"start": 0, "end": 20, "label": "WEATHER"}, {"start": 22, "end": 36, "label": "DELAY_REASON"}]}
+{"text": "The carrier is not liable for theft of goods in transit.", "entities": [{"start": 20, "end": 33, "label": "LIABILITY"}]}
+{"text": "Fuel shortages caused significant interstate delivery delays.", "entities": [{"start": 0, "end": 14, "label": "DELAY_REASON"}]}
+{"text": "Electrical failures inside the warehouse damaged stored items.", "entities": [{"start": 0, "end": 20, "label": "DELAY_REASON"}, {"start": 50, "end": 57, "label": "DAMAGE_TYPE"}]}
+{"text": "Couriers headed to Goa are likely to be delayed due to holiday rush.", "entities": [{"start": 18, "end": 21, "label": "LOCATION"}, {"start": 58, "end": 70, "label": "DELAY_REASON"}]}
+{"text": "Failure to comply with cross-border regulations may slow down delivery.", "entities": [{"start": 0, "end": 31, "label": "DELAY_REASON"}]}
+{"text": "The client must prepay ₹12,500 before dispatch.", "entities": [{"start": 4, "end": 9, "label": "PARTY"}, {"start": 21, "end": 28, "label": "AMOUNT"}]}
+{"text": "Excessive heat caused adhesive materials to melt in transit.", "entities": [{"start": 0, "end": 8, "label": "WEATHER"}, {"start": 9, "end": 15, "label": "DELAY_REASON"}]}
+{"text": "Shipments to Kerala must follow compliance and safety checks.", "entities": [{"start": 13, "end": 19, "label": "LOCATION"}, {"start": 49, "end": 62, "label": "DELAY_REASON"}]}
+{"text": "A fine of ₹700 applies for incomplete KYC documentation.", "entities": [{"start": 8, "end": 11, "label": "AMOUNT"}, {"start": 12, "end": 16, "label": "PENALTY"}, {"start": 33, "end": 56, "label": "DELAY_REASON"}]}
+{"text": "Border closures led to 2-day stoppages on international routes.", "entities": [{"start": 0, "end": 15, "label": "DELAY_REASON"}, {"start": 23, "end": 28, "label": "DURATION"}]}
+{"text": "Shipment insurance covers loss up to ₹40,000.", "entities": [{"start": 36, "end": 43, "label": "AMOUNT"}]}
+{"text": "A penalty of 1.5% applies if the carrier misses the delivery window.", "entities": [{"start": 12, "end": 16, "label": "PENALTY"}, {"start": 24, "end": 30, "label": "PARTY"}]}
+{"text": "Flash floods washed out several bridges, affecting rural deliveries.", "entities": [{"start": 0, "end": 13, "label": "WEATHER"}, {"start": 14, "end": 23, "label": "DELAY_REASON"}]}
+{"text": "If the shipper fails to provide invoices, the carrier may delay dispatch.", "entities": [{"start": 7, "end": 14, "label": "PARTY"}, {"start": 22, "end": 39, "label": "DELAY_REASON"}, {"start": 51, "end": 57, "label": "PARTY"}]}
+{"text": "Cargo with broken seals will be rejected at the Cochin warehouse.", "entities": [{"start": 10, "end": 22, "label": "CONDITION"}, {"start": 50, "end": 56, "label": "LOCATION"}]}
+{"text": "The packaging department must report discrepancies before shipment.", "entities": [{"start": 4, "end": 23, "label": "DELAY_REASON"}]}
+{"text": "Heavy congestion in Mumbai caused a major routing delay.", "entities": [{"start": 0, "end": 16, "label": "DELAY_REASON"}, {"start": 20, "end": 26, "label": "LOCATION"}]}
+{"text": "Coastal regions may experience delays during high tide events.", "entities": [{"start": 0, "end": 15, "label": "LOCATION"}, {"start": 47, "end": 61, "label": "WEATHER"}]}
+{"text": "Accidental spillage of chemicals resulted in hazardous conditions.", "entities": [{"start": 0, "end": 20, "label": "DELAY_REASON"}, {"start": 46, "end": 65, "label": "CONDITION"}]}
+{"text": "Temperature spikes beyond 40°C caused refrigeration failure.", "entities": [{"start": 0, "end": 18, "label": "WEATHER"}, {"start": 45, "end": 65, "label": "DELAY_REASON"}]}
+{"text": "The carrier’s liability does not cover perishable items spoiled after 24 hours.", "entities": [{"start": 13, "end": 22, "label": "LIABILITY"}, {"start": 58, "end": 66, "label": "DURATION"}]}
+{"text": "A ₹900 fine applies for submitting incomplete shipment manifests.", "entities": [{"start": 2, "end": 6, "label": "AMOUNT"}, {"start": 12, "end": 16, "label": "PENALTY"}, {"start": 28, "end": 57, "label": "DELAY_REASON"}]}
+{"text": "Cities like Gurgaon and Noida experience delays due to construction work.", "entities": [{"start": 11, "end": 18, "label": "LOCATION"}, {"start": 23, "end": 28, "label": "LOCATION"}, {"start": 49, "end": 67, "label": "DELAY_REASON"}]}
+{"text": "The carrier must refund ₹2,000 if the goods are soaked due to rain.", "entities": [{"start": 22, "end": 28, "label": "AMOUNT"}, {"start": 48, "end": 52, "label": "WEATHER"}]}
+{"text": "Interstate checkpoints caused long queues, delaying multiple trucks.", "entities": [{"start": 0, "end": 21, "label": "DELAY_REASON"}]}
+{"text": "If snowfall continues, deliveries to Shimla may be suspended.", "entities": [{"start": 3, "end": 11, "label": "WEATHER"}, {"start": 35, "end": 41, "label": "LOCATION"}]}
+{"text": "Driver negligence is grounds for penalty as per contract terms.", "entities": [{"start": 0, "end": 18, "label": "DELAY_REASON"}, {"start": 36, "end": 43, "label": "PENALTY"}]}
+{"text": "An insurance premium of ₹1,200 is required for high-value cargo.", "entities": [{"start": 25, "end": 31, "label": "AMOUNT"}, {"start": 47, "end": 61, "label": "CONDITION"}]}
+{"text": "The SLA specifies a 72-hour resolution time for complaints.", "entities": [{"start": 4, "end": 7, "label": "SLA"}, {"start": 20, "end": 28, "label": "DURATION"}]}
+{"text": "Humidity beyond safe limits may spoil organic shipments.", "entities": [{"start": 0, "end": 8, "label": "WEATHER"}, {"start": 33, "end": 38, "label": "CONDITION"}]}
+{"text": "Traffic diversions near Jaipur caused inconsistent dispatch schedules.", "entities": [{"start": 0, "end": 18, "label": "DELAY_REASON"}, {"start": 24, "end": 30, "label": "LOCATION"}]}
+{"text": "The shipping service is governed by laws under Indian jurisdiction.", "entities": [{"start": 52, "end": 58, "label": "JURISDICTION"}]}
