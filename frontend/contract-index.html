@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategic Contract AI</title>
+    <link rel="stylesheet" href="contract-style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <div class="app-container">
+        <header class="header">
+            <h1>Strategic Contract AI</h1>
+            <div class="header-actions">
+                <div class="user-avatar">JD</div>
+                <button class="icon-btn" onclick="toggleSettings()">
+                    <i data-feather="settings"></i>
+                </button>
+            </div>
+        </header>
+
+        <aside class="sidebar">
+            <nav class="nav-menu">
+                <a href="#" class="nav-item active" onclick="showSection('query')">
+                    <i data-feather="message-circle"></i>
+                    <span>Ask a Query</span>
+                </a>
+                <a href="#" class="nav-item" onclick="showSection('negotiation')">
+                    <i data-feather="git-merge"></i>
+                    <span>Negotiation Engine</span>
+                </a>
+                <a href="#" class="nav-item" onclick="showSection('clause')">
+                    <i data-feather="search"></i>
+                    <span>Clause Search</span>
+                </a>
+                <a href="#" class="nav-item" onclick="showSection('contract')">
+                    <i data-feather="file-text"></i>
+                    <span>Generated Contract</span>
+                </a>
+                <a href="#" class="nav-item" onclick="showSection('history')">
+                    <i data-feather="clock"></i>
+                    <span>History</span>
+                </a>
+                <a href="#" class="nav-item" onclick="showSection('settings')">
+                    <i data-feather="sliders"></i>
+                    <span>Settings</span>
+                </a>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <!-- Ask a Query Section -->
+            <div id="query-section" class="section active">
+                <div class="card">
+                    <h2>Ask Your Contract Question</h2>
+                    <textarea id="queryInput" placeholder="Ask anything about delivery agreements, penalties, delays, surcharges, SLAs…"></textarea>
+                    <button class="btn-primary" onclick="analyzeQuery()">
+                        <i data-feather="zap"></i>
+                        Analyze & Generate Contract
+                    </button>
+                </div>
+
+                <div class="card output-card">
+                    <div class="tabs">
+                        <button class="tab active" onclick="showTab('ner')">NER Result</button>
+                        <button class="tab" onclick="showTab('clause')">Top Contract Clause</button>
+                        <button class="tab" onclick="showTab('negotiation')">Negotiation Summary</button>
+                        <button class="tab" onclick="showTab('answer')">Final Output Answer</button>
+                        <button class="tab" onclick="showTab('download')">Download Contract</button>
+                    </div>
+
+                    <div class="tab-content">
+                        <div id="ner-content" class="tab-panel active">
+                            <pre id="nerResult">No results yet. Submit a query to see NER analysis.</pre>
+                        </div>
+                        <div id="clause-content" class="tab-panel">
+                            <pre id="clauseResult">No results yet.</pre>
+                        </div>
+                        <div id="negotiation-content" class="tab-panel">
+                            <pre id="negotiationResult">No results yet.</pre>
+                        </div>
+                        <div id="answer-content" class="tab-panel">
+                            <pre id="answerResult">No results yet.</pre>
+                        </div>
+                        <div id="download-content" class="tab-panel">
+                            <div class="download-section">
+                                <p>Contract ready for download</p>
+                                <button class="btn-secondary" onclick="previewContract()">
+                                    <i data-feather="eye"></i>
+                                    Preview Contract
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Negotiation Engine Section -->
+            <div id="negotiation-section" class="section">
+                <div class="card">
+                    <h2>Negotiation Engine</h2>
+                    <div class="negotiation-controls">
+                        <input type="text" id="negotiationTopic" placeholder="Enter negotiation topic (e.g., penalty rates, delivery terms)">
+                        <button class="btn-primary" onclick="startNegotiation()">
+                            <i data-feather="git-merge"></i>
+                            Start Negotiation
+                        </button>
+                    </div>
+                    <div id="negotiationResults" class="results-area"></div>
+                </div>
+            </div>
+
+            <!-- Clause Search Section -->
+            <div id="clause-section" class="section">
+                <div class="card">
+                    <h2>Clause Search (RAG)</h2>
+                    <div class="search-controls">
+                        <input type="text" id="searchInput" placeholder="Search contract clauses...">
+                        <button class="btn-primary" onclick="searchClauses()">
+                            <i data-feather="search"></i>
+                            Search
+                        </button>
+                    </div>
+                    <div id="searchResults" class="results-area"></div>
+                </div>
+            </div>
+
+            <!-- Generated Contract Section -->
+            <div id="contract-section" class="section">
+                <div class="card">
+                    <h2>Generated Contracts</h2>
+                    <div id="contractList" class="contract-list"></div>
+                </div>
+            </div>
+
+            <!-- History Section -->
+            <div id="history-section" class="section">
+                <div class="card">
+                    <h2>Query History</h2>
+                    <div id="historyList" class="history-list"></div>
+                </div>
+            </div>
+
+            <!-- Settings Section -->
+            <div id="settings-section" class="section">
+                <div class="card">
+                    <h2>System Settings</h2>
+                    <div class="settings-grid">
+                        <div class="setting-item">
+                            <label>AI Model:</label>
+                            <select id="modelSelect">
+                                <option value="llama3.1">Llama 3.1</option>
+                                <option value="gpt-4">GPT-4</option>
+                            </select>
+                        </div>
+                        <div class="setting-item">
+                            <label>Contract Language:</label>
+                            <select id="languageSelect">
+                                <option value="en">English</option>
+                                <option value="es">Spanish</option>
+                            </select>
+                        </div>
+                        <div class="setting-item">
+                            <label>Auto-save:</label>
+                            <input type="checkbox" id="autoSave" checked>
+                        </div>
+                    </div>
+                    <button class="btn-primary" onclick="saveSettings()">
+                        <i data-feather="save"></i>
+                        Save Settings
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="modal" id="contractModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Contract Preview</h3>
+                <button class="close-btn" onclick="closeModal()">
+                    <i data-feather="x"></i>
+                </button>
+            </div>
+            <div class="modal-body" id="contractPreview"></div>
+            <div class="modal-footer">
+                <button class="btn-secondary" onclick="copyContract()">
+                    <i data-feather="copy"></i>
+                    Copy to Clipboard
+                </button>
+                <button class="btn-primary" onclick="downloadPDF()">
+                    <i data-feather="download"></i>
+                    Download as PDF
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner">
+            <div class="spinner"></div>
+            <p>Processing your request...</p>
+        </div>
+    </div>
+
+    <script src="contract-script.js"></script>
+    <script>feather.replace()</script>
+</body>
+</html>
